@@ -22,7 +22,7 @@ describe('Pages :: Home', () => {
     it('should render the title and subtitle', () => {
         render(<Home />);
 
-        const titleElement = screen.getByText(/Desafio Front-End da Desbravador Software/i);
+        const titleElement = screen.getByText(/Github Software/i);
         expect(titleElement).toBeInTheDocument();
 
         const subtitleElement = screen.getByText(/Buscador de Usuários no Github/i);
